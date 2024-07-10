@@ -3,5 +3,5 @@ let student = {
 }
 
 student.__proto__.getKeys = function () {
-	return Object.keys(student);
+	return Object.keys(this);
 }
